@@ -1,32 +1,17 @@
 @import url(https://fonts.googleapis.com/css?family=Crafty+Girls|Source+Code+Pro:300);
 
-
-body {
-   // background-color: darkgray;
-   text-align: center;
-   font-family: Helvetica, sans-serif;
-}
-
-
-
-
 .clock {
    font-family: 'Source Code Pro', sans-serif;
    text-align: center;
    font-weight: bold;
    color:white;
-   span {
-      font-size: calc(16px + 12vw);
-   }
    margin-top: 5em;
-
+   span {font-size: calc(16px + 12vw);}
 }
-
 
 .hours::after, .minutes::after {
    content: ":";
    padding-left: 0;
-
 }
 
 .seconds-bar-wrapper {
@@ -36,9 +21,7 @@ body {
    margin: 0 auto;
    text-align: center;
 
-
-
-   .seconds-bar{
+   .seconds-bar {
       position: relative;
       height: 100%;
       width: 0;
