@@ -7,7 +7,8 @@ body {
   font-family: 'Source Code Pro', sans-serif;
   text-align: center;
   font-weight: bold;
-  color: white; }
+  color: white;
+  margin-top: 5em; }
   .clock span {
     font-size: calc(16px + 12vw); }
 
@@ -17,14 +18,16 @@ body {
 
 .seconds-bar-wrapper {
   position: relative;
-  width: 100%;
+  width: 80%;
   height: 4px;
+  margin: 0 auto;
   text-align: center; }
   .seconds-bar-wrapper .seconds-bar {
     position: relative;
     height: 100%;
     width: 0;
     background-color: white;
-    margin: 0 auto; }
+    margin: 0 auto;
+    border-radius: 5px; }
 
 /*# sourceMappingURL=styles.css.map */

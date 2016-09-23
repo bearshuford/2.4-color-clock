@@ -18,6 +18,8 @@ body {
    span {
       font-size: calc(16px + 12vw);
    }
+   margin-top: 5em;
+
 }
 
 
@@ -29,9 +31,12 @@ body {
 
 .seconds-bar-wrapper {
    position:relative;
-   width: 100%;
+   width: 80%;
    height: 4px;
+   margin: 0 auto;
    text-align: center;
+
+
 
    .seconds-bar{
       position: relative;
@@ -39,5 +44,6 @@ body {
       width: 0;
       background-color: white;
       margin: 0 auto;
+      border-radius: 5px;
    }
 }
