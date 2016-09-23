@@ -1,3 +1,6 @@
+@import url(https://fonts.googleapis.com/css?family=Crafty+Girls|Source+Code+Pro:300);
+
+
 body {
    // background-color: darkgray;
    text-align: center;
@@ -8,8 +11,10 @@ body {
 
 
 .clock {
+   font-family: 'Source Code Pro', sans-serif;
    text-align: center;
    font-weight: bold;
+   color:white;
    span {
       font-size: calc(16px + 12vw);
    }
@@ -19,6 +24,7 @@ body {
 .hours::after, .minutes::after {
    content: ":";
    padding-left: 0;
+
 }
 
 .seconds-bar-wrapper {
@@ -28,11 +34,10 @@ body {
    text-align: center;
 
    .seconds-bar{
-
       position: relative;
       height: 100%;
-      width: 1%;
-      background-color: black;
+      width: 0;
+      background-color: white;
       margin: 0 auto;
    }
 }
