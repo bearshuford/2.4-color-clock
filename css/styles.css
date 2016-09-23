@@ -2,22 +2,22 @@ body {
   text-align: center;
   font-family: Helvetica, sans-serif; }
 
-.elapsed-time {
+.clock {
   text-align: center;
   font-weight: bold; }
-  .elapsed-time span {
+  .clock span {
     font-size: calc(16px + 12vw); }
 
 .hours::after, .minutes::after {
   content: ":";
   padding-left: 0; }
 
-.timer-bar-wrapper {
+.seconds-bar-wrapper {
   position: relative;
   width: 100%;
   height: 4px;
   text-align: center; }
-  .timer-bar-wrapper .timer-bar {
+  .seconds-bar-wrapper .seconds-bar {
     position: relative;
     height: 100%;
     width: 1%;

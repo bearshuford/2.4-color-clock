@@ -7,7 +7,7 @@ body {
 
 
 
-.elapsed-time {
+.clock {
    text-align: center;
    font-weight: bold;
    span {
@@ -21,13 +21,13 @@ body {
    padding-left: 0;
 }
 
-.timer-bar-wrapper {
+.seconds-bar-wrapper {
    position:relative;
    width: 100%;
    height: 4px;
    text-align: center;
 
-   .timer-bar{
+   .seconds-bar{
 
       position: relative;
       height: 100%;
